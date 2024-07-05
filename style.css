@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New';
+}
+
+span {
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+}
+
+.card{
+    transition: all 0.3s linear;
+}
+
+.card:hover{
+    transform: translateY(-20px);
+}
+
+/* *************** Navigation bar *************** */
+.navigation img{
+    width:130px;
+}
+.navbar-nav li {
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.navbar-nav li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Courier New';
+}
+
+/* *************** COVER ************ */
+
+.cover {
+    background-image: url(images/bg-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 600px;
+}
+
+.cover::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.cover .container {
+    position: relative;
+    z-index: 10;
+}
+
+.cover h1 {
+    font-size: 60px;
+    font-weight: 900px;
+    color: white;
+}
+
+/* *************Advantages************** */
+
+.advantage {
+    background-color: #F5FAFF;
+}
+/* .advantage .card{
+    transition: all 0.3s linear;
+}
+.advantage .card:hover{
+    transform: translateY(-20px);
+} */
+
+.advantage h1 {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.advantage h1:hover {
+    color: #F71735;
+}
+
+/* *************KNOWING BIZKNOW************ */
+
+.about h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about i {
+    font-size: 12px;
+    color: #F71735;
+    margin-right: 10px;
+}
+
+.about img {
+    border: 1px solid #E8ECEF;
+}
+
+/* *************components***************** */
+
+.components {
+    background-color: #181831;
+    color: white;
+}
+
+.components i {
+    font-size: 40px;
+    color: #F71735;
+    padding: 15px 0;
+}
+
+.components .section-1 {
+    border: dotted grey;
+}
+
+.components .section-1:hover {
+    border: dotted #F71735;
+}
+
+.components h3 {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.components p {
+    color: grey;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* ******************VISIT*********** */
+
+.visit {
+    margin-top: 30px;
+    background-color: #181831;
+    color: white;
+}
+
+.visit h1 {
+    font-size: 55px;
+    font-weight: 800;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.visit .visit-btn {
+    padding: 15px 25px;
+    background-color: #F71735;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.visit .visit-btn:hover {
+    background-color: transparent;
+}
+
+/* **************Reviews************ */
+.reviews {
+    background-color: #F71735;
+    color: white;
+}
+
+.reviews p {
+    font-size: 17px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+
+/* **************NEWS****************** */
+
+.news p {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.news h1 {
+    color: #F71735;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+/* ************ Contact **************** */
+.contact {
+    background-color: #F5FAFF;
+}
+
+.contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.contact input {
+    padding: 10px 60px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contact button {
+    background-color: #F71735;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact button:hover {
+    background-color: #181831;
+    color: white;
+}
+
+/* ***************Footer************* */
+
+.footer {
+    background-color: #181831;
+    color: white;
+}
+
+.footer .icon {
+    font-size: 40px;
+}
+
+.footer button {
+    padding: 5px 10px;
+    background-color: #F71735;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.footer button:hover {
+    background-color: #181831;
+    border-style: none;
+}
+
+.footer ul {
+    font-size: 15px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.footer li {
+    padding: 7px 0;
+}
+
+.footer li i {
+    font-size: 8px;
+    margin-right: 10px;
+}
+
+.footer .section-3 p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.contact-info p:hover {
+    color: #F71735;
+    cursor: pointer;
+
+}
+
+.contactBorder {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+/* *******************icons************* */
+
+.icon-1 {
+    position: fixed;
+    left: 60px;
+    bottom: 70px;
+}
+
+.icon-1 i {
+    font-size: 70px;
+    color: #25D366;
+}
+
+.icon-1 i:hover {
+    color: #F71735;
+    cursor: pointer;
+}
+
+/* .icon-2 {
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    cursor: pointer;
+} */
+
+.icon-2{
+    position: fixed;
+    bottom: 120px;
+    right: 50px;
+}
+
+.icon-2 i {
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    padding: 10px 12px;
+    border-radius: 50px;
+    transition: all 0.3s linear;
+}
+
+.icon-2 i:hover{
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    padding: 30px 12px;
+}
+
+.icon-3{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+.icon-3 i{
+    font-size: 35px;
+    background-color: #0066CC;
+    padding: 14px;
+    border-radius: 50px;
+    color: white;
+    
+}
+
+
+@media screen and (max-width: 991px) {
+    .contactBorder {
+        border: none;
+    }
+
+    .cover h1 {
+        font-size: 40px;
+        flex-wrap: wrap;
+    }
+
+    .visit h1 {
+        font-size: 35px;   
+    }
+
+    /* .icon-1 i {
+        font-size: 50px;
+        position: fixed;
+        bottom: 30px;
+        left:20px;
+    }
+
+    .icon-2 i {
+        font-size: 50px;
+        position: fixed;
+        bottom: 30px;
+        right:20px;
+    } */
+}
